@@ -17,8 +17,8 @@
     right:0px;
     height:30px;
     margin-bottom:0px;
-	 display: flex;
-  justify-content: left;
+    display: flex;
+    justify-content: flex-start;
   
  
 }
