@@ -10,15 +10,38 @@
 
 .footer
 {
-    background-color: #cec5c3;
+    background-color: #99ddff;
     position:fixed;
     bottom:0px;
     left:0px;
     right:0px;
-    height:50px;
+    height:30px;
     margin-bottom:0px;
+	 display: flex;
+  justify-content: left;
+  
+ 
 }
 
 div{
     text-indent: 50px;
+	 float:left;
+}
+
+a:link {
+    text-decoration: none;
+	color: white;
+}
+
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
