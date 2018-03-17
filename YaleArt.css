@@ -15,7 +15,8 @@
    bottom:0px;
    left:0px;
    right:0px;
-   height:45px;
+   height:30px;  
+    padding-top: 15px;
    margin-bottom:0px;
    display: flex;
    justify-content: flex-start;
@@ -33,14 +34,65 @@ a:link {
 }
 
 .button {
-   background-color: #4CAF50; 
    border: none;
    color: white;
-   padding: 10px 25px;
-   text-align: center;
+   text-align: left;
    text-decoration: none;
    display: inline-block;
    font-size: 16px;
-   margin: 4px 2px;
    cursor: pointer;
+}
+
+
+input[type="text"] {
+    width: 150px44
+    display: block;
+    margin-bottom: 10px;
+}
+
+#logo { 
+    width: 70px; 
+	height: 70px;
+    float:left;
+    clear: both;
+}
+
+.clear  { clear:both; }
+
+
+.navigate {
+	width:100%;
+  text-align: center;
+  padding: 4px;
+  border-color: grey;
+  background-color: grey;
+  border-style: solid;
+    border-width: 5px;
+}
+
+.navigate:hover {
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+a.ContentButton {
+  color: white;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 1.2em;
+}
+
+.login {
+	width: 200px; 
+	height: 160px;
+  text-align: left;
+  border-color: grey;
+  background-color: grey;
+  border-style: solid;
+    border-width: 5px;
 }
