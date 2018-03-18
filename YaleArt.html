@@ -20,11 +20,50 @@
       <a href="#" class="ContentButton">Visiting</a>
       <a href="#" class="ContentButton">Students</a>
       <a href="#" class="ContentButton">Alums</a>
-      <a href="login.html" class="ContentButton" >Login</a>
+      <a href="#" class="ContentButton" >Login</a>
     </div>
 	
   <br>
-<img src="slideshow.jpg" height="300" width="300">
+<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<img class="Slideshow" src="slideshow.jpg" height="300" width="300">
+<img class="Slideshow" src="Building.jpg" height="300" width="300">
+<img class="Slideshow" src="Sign.jpg" height="300" width="300">
+<img class="Slideshow" src="Painting.jpg" height="300" width="300">
+<img class="Slideshow" src="History.jpg" height="300" width="300">
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+<br>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+carousel();
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("Slideshow");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("Slideshow");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000);
+}
+</script>
 <img src="summary.jpg" height="300" width="1650">
 <div class="footer">
   <a href="#"> Contact Us</a> 
@@ -36,4 +75,3 @@
 </body>
 
 </html>
-
