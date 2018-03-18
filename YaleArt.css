@@ -94,7 +94,7 @@ input[type="text"] {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: 	#282828;
 }
 
 .dropdown-content {
