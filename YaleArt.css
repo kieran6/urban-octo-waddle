@@ -64,8 +64,8 @@ input[type="text"] {
     overflow: hidden;
     background-color: #333;
     font-family: Arial, Helvetica, sans-serif;
-	  border-color: grey;
-  background-color: grey;
+    border-color: grey;
+    background-color: grey;
 }
 
 .navbar a {
@@ -94,7 +94,7 @@ input[type="text"] {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color:  	#282828;
 }
 
 .dropdown-content {
