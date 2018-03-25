@@ -7,9 +7,6 @@ html {
 }	
 
 @media (max-width: 625px) {
-	.topBar {
-	
-	}
 	
 	.mobileMenu {
 		position: fixed;
@@ -20,7 +17,7 @@ html {
 		font-size: 1.2em;
 		padding: 12px 24px;
 		border-radius: 5px;
-		}
+	}
 		
 	#logo { 
 		position: absolute;
@@ -136,11 +133,14 @@ html {
 		text-align: center;
 	}
 	
-		.clear  { clear:both; }
+	.clear  { clear:both; }
 
 
 	.navbar {
-		display:none;
+		z-index: 99;
+		position: absolute;
+		width: 0px;
+		height: 80%;
 		overflow: hidden;
 		background-color: #333;
 		font-family: Arial, Helvetica, sans-serif;
@@ -148,7 +148,12 @@ html {
 	  background-color: grey;
 	}
 
+	.navbar .closebtn {
+		right: 0%;
+	}
+	
 	.navbar a {
+		background-color: grey;
 		float: left;
 		font-size: 16px;
 		color: white;
@@ -250,6 +255,10 @@ html {
 }	
 	
 @media (min-width: 625px) {
+	.closebtn {
+		display: none;
+	}
+	
 	.mobileMenu {
 		display: none;
 	}
@@ -309,7 +318,7 @@ html {
 	}
 
 	
-	=input[type="text"] {
+	input[type="text"] {
 		width: 150px44;
 		display: block;
 		margin-bottom: 10px;
@@ -326,11 +335,12 @@ html {
 
 
 	.navbar {
+		
 		overflow: hidden;
 		background-color: #333;
 		font-family: Arial, Helvetica, sans-serif;
-		  border-color: grey;
-	  background-color: grey;
+		border-color: grey;
+		background-color: grey;
 	}
 
 	.navbar a {
