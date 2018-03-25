@@ -6,25 +6,30 @@ body {
    background-size: cover;
 }
 
+h1 {
+    color: black;
+    font-size: 200%;
+	text-align:center; 
+      font-family: Arial, Helvetica, sans-serif;
+}
 
-.footer
-{
-   background-color: grey;
-   position:fixed;
-   bottom:0px;
-   left:0px;
-   right:0px;
-   height:30px;  
-    padding-top: 15px;
-   margin-bottom:0px;
-   display: flex;
-   justify-content: flex-start;
-  
- 
+
+.intro { 
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit-button {
+   border: none;
+   color: white;
+   text-align: left;
+   float: right;
+   font-size: 2em;
+   cursor: pointer;
 }
 
 div{
-   text-indent: 50px;
+   text-indent: 2em;
 }
 
 a:link {
@@ -32,15 +37,7 @@ a:link {
    color: white;
 }
 
-.button {
-   border: none;
-   color: white;
-   text-align: left;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
-   cursor: pointer;
-}
+=
 
 
 input[type="text"] {
@@ -50,8 +47,8 @@ input[type="text"] {
 }
 
 #logo { 
-    width: 100px; 
-	height: 100px;
+    width: `5em; 
+	height: 5em;
     float:left;
     clear: both;
 }
@@ -126,16 +123,20 @@ a {
 }
 
 .login {
-	width: 200px; 
-	height: 160px;
+ padding: 3em;
   text-align: left;
   border-color: grey;
   background-color: grey;
   border-style: solid;
-    border-width: 5px;
+  width:10%;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .container {
+	text-align: center;
     position: relative;
     width: 100%;
     max-width: 800px;
@@ -206,3 +207,24 @@ a {
 .LoginButton:hover{
 	 background-color: black;
 }
+
+.footer
+{
+   background: grey;  
+   padding:1em;
+   display: flex;
+   justify-content: flex-start;
+  
+ 
+}
+
+a.footer-button {
+  color: white;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+a.footer-button:hover {
+  color: #282828;
+}
+
