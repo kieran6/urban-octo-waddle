@@ -124,19 +124,20 @@ a {
 
 .login {
  padding: 3em;
-  text-align: left;
-  border-color: grey;
-  background-color: grey;
-  border-style: solid;
-  width:10%;
-   display: block;
-    margin-left: auto;
-    margin-right: auto;
+ text-align: left;
+ border-color: grey;
+ background-color: grey;
+ border-style: solid;
+ width:10%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ color: white;
 
 }
 
 .container {
-	text-align: center;
+ text-align: center;
     position: relative;
     width: 100%;
     max-width: 800px;
@@ -201,7 +202,7 @@ a {
 	right: 2%;
 	background-color: grey;
     border: none;
-    color: white;
+    
 }
 
 .LoginButton:hover{
