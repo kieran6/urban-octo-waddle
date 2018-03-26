@@ -1,49 +1,67 @@
  
-<!doctype html>
-
-<html lang="en">
-
+<html>
 <head> 
  <title>Yale School of Art: Login</title>
  <link rel="stylesheet" type="text/css" href="YaleArt.css">
 </head> 
 <body> 
 
- <a href="index.html"><img id = "logo" src="logo.png"></a>
+<img id="logo" src="logo.png">
   <br class="clear">
   <br/>
-<br>
-  <div align="center" class =login>
-<form action="login.php" method="post">
-<p>Username</p> 
+<center>
+  <div class =login>
+
+<form action="query.php" method="post">
+<center><h1><font face="arial"><font color = "white">Sign-In</font></font></h1></center>
+<br/>
+Username 
+<br/>
  <input type="text" id="username" name="username">
-<p>Password</p>
- <input type="text" id="password" name="password">
- <div class="submit-button">
+ <br/> 
+ Password
+ <br/>
+ <input type="password" id="password" name="password">
+ <br/>
+ <br/>
+ <div class="button">
   <button type="submit">Continue</button>
+  <br/><br/> 
+   
+
 </div>
 </div>
 </form>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center><h1><font face= "Arial">DEMO INSTRUCTIONS</h1></center> 
 
+<p> 
+To test the login system (made using PHP, JS, SQL) - please use the following user credentials: 
 <br>
 <br>
+username: testuser
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+password: testpassword
+</font>
+</p>
 <br>
 <br>
 <br>
@@ -59,3 +77,4 @@
 
 </body> 
 </html>
+
